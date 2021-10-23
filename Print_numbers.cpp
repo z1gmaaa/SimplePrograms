@@ -1,3 +1,4 @@
+//To print from 1 to n
 #include<iostream>
 using namespace std;
 
