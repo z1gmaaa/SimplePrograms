@@ -1,0 +1,21 @@
+//To find number of vowels in a word
+#include<iostream>
+using namespace std;
+
+int main() {
+   int vowel=0;
+   string word;
+   cout<<"Enter The String :";
+   cin>>word;
+   
+   
+cout << "The length of the word string is: " << word.length()<<"\n";
+
+for(int i=0;i<word.length();i++){
+    if(word[i]=='a'|| word[i]=='e'|| word[i]=='i'|| word[i]=='o'|| word[i]=='u'){
+        vowel++;
+    }
+}
+cout<<"number of vowels :"<< vowel;
+    return 0;
+}    
